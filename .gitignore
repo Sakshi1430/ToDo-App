@@ -1,0 +1,53 @@
+HELP.md
+
+### Build outputs ###
+target/
+build/
+out/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IDEs ###
+# Spring Tool Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+### Maven ###
+.mvn/wrapper/maven-wrapper.jar
+
+### Logs & temp ###
+*.log
+*.tmp
+
+### Spring Boot configs (only example) ###
+src/main/resources/application.properties
+src/main/resources/application.yml
+!src/main/resources/application-example.properties
+!src/main/resources/application-example.yml
+
+### Node / frontend ###
+node_modules/
+dist/
