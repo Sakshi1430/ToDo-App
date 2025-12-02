@@ -11,7 +11,6 @@ This project lets you create, track, and complete your daily tasks with a smooth
 - Spring Data JPA
 - Thymeleaf
 - Bootstrap
-- Maven
 - MySQL 
 
 ---
